@@ -9,7 +9,7 @@ body{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 10px #0000001A;
     margin: auto;
-  justify-content: space-around;
+  justify-content: space-between;
   place-items: center;
 }
 
@@ -34,7 +34,8 @@ body{
     font-size: 1.5em;
     font-weight: bold;
     color:red;
-    font-family: Impact, Charcoal, sans-serif
+    font-family: Impact, Charcoal, sans-serif;
+    margin-left: 70px;
 }
 
 .headText{
@@ -228,7 +229,65 @@ body{
       display: none;
   }
 
-@media all and (max-width: 890px) {
+  .bottomtext{
+      display: none;
+  }
+
+  .autoWidthdiv{
+    width: auto;
+    top: 895px;
+    left: 165px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 1px 1px 0px #0000001A;
+    border: 1px solid #CBD8DB;
+    padding:5px;
+    margin:5px;
+  }
+
+  .allRadius{
+      border-radius: 30px;
+      align-items: center;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #innerRadius{
+    border-radius: 9999px;
+    height: 42px;
+    width: 42px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #FFE30D;
+  }
+
+  .radius{
+      border-radius: 30px 5px 5px 30px;
+      align-items: center;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .goal{
+      background-color: #6188EA;
+      font-size: small;
+      font-weight: bold;
+      width:60px;
+      text-align: center;
+      border-radius: 35%;
+      color:white;
+  }
+
+  .white{
+      color:white;
+  }
+
+
+
+@media all and (max-width: 950px) {
       .sub{
       display:none;
     }
@@ -269,6 +328,10 @@ body{
 
     .sharebtn{
         display: none;
+    }
+
+    .bottomtext{
+        display: block;
     }
 }
 
