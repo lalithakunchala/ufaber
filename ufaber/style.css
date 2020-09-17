@@ -9,13 +9,12 @@ body{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 10px #0000001A;
     margin: auto;
-  justify-content: space-between;
   place-items: center;
 }
 
 .menu{
     top: 10px;
-    left: 71px;
+    left: 41px;
     padding: 15px;
 }
 
@@ -108,7 +107,7 @@ body{
   }
 
   .mainBanner{
-    background-image: url("file:///home/lalithakunchala/Downloads/Image%2010.png");
+    background-image: url("https://i.imgur.com/tWBIvMw.png");
     min-height:356px;
     max-width: 100%;
     font-size: large;
@@ -285,6 +284,10 @@ body{
       color:white;
   }
 
+  .font24{
+      font-size: 24px;
+      font-weight: bold;
+  }
 
 
 @media all and (max-width: 950px) {
@@ -333,6 +336,7 @@ body{
     .bottomtext{
         display: block;
     }
+    
 }
 
 
