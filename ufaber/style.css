@@ -47,9 +47,8 @@ body{
   place-items: center;
   font:normal normal normal 14px/25px Granstander Clean;
   font-weight: bold;
-  font-size:16px;
+  font-size:14px;
   place-items: center;
-  letter-spacing: 1px;
 }
 
 .bttn{
@@ -75,6 +74,7 @@ body{
       color:#ADBABD;
       font: normal normal medium 15px/28px Montserrat;
         letter-spacing: 0px;
+        font-size: x-small;
   }
 
   .tripleft{
@@ -82,7 +82,6 @@ body{
     font: normal normal medium 35px/43px Montserrat;
     letter-spacing: 0px;
     color: #333333;
-    opacity: 1;
     font-size: 28px;
     padding-left:10px;
   }
@@ -92,8 +91,7 @@ body{
     font: normal normal medium 35px/43px Montserrat;
     letter-spacing: 0px;
     color: #333333;
-    opacity: 1;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .tripbtn{
@@ -114,6 +112,15 @@ body{
     font-size: large;
     font-weight: 600;
     border-radius: 5px;
+  }
+
+  .mainNext{
+    min-height:356px;
+    max-width: 100%;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+    border : 1px solid black
   }
 
   .watch{
@@ -137,6 +144,41 @@ body{
     transform: matrix(0, 1, -1, 0, 0, 0);
     border-radius: 100% 100% 0% 0%;
   } */
+
+  .btns{
+    text-align: center;
+    font: normal normal medium 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #515151;
+    font-size: small;
+    top: 383px;
+    left: 830px;
+    width: 102px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding-top: 4px;
+  }
+
+  .inrbtn{
+    top: 499px;
+    left: 830px;
+    width: 160px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001A;
+    border-radius: 5px;
+    font-size: large;
+
+  }
+  .inr{
+    color:#6997A1;
+    font: normal normal medium 15px/28px Montserrat;
+    letter-spacing: 0px;
+    font-size: small;
+    text-decoration: line-through;
+  }
 
 @media all and (max-width: 890px) {
       .sub{
