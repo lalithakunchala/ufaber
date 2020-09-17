@@ -80,16 +80,17 @@ body{
   .tripleft{
     text-align: left;
     font: normal normal medium 35px/43px Montserrat;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     color: #333333;
     font-size: 28px;
     padding-left:10px;
+    font-weight: bold;
   }
 
   .tripleftsub{
     text-align: left;
     font: normal normal medium 35px/43px Montserrat;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     color: #333333;
     font-size: 16px;
   }
@@ -120,7 +121,7 @@ body{
     font-size: large;
     font-weight: 600;
     border-radius: 5px;
-    border : 1px solid black
+    
   }
 
   .watch{
@@ -172,12 +173,59 @@ body{
     font-size: large;
 
   }
+
+  .smallSize{
+    font-size: small;
+  }
   .inr{
     color:#6997A1;
     font: normal normal medium 15px/28px Montserrat;
     letter-spacing: 0px;
     font-size: small;
     text-decoration: line-through;
+  }
+
+  .bookbtn{
+    top: 568px;
+    left: 830px;
+    width: 350px;
+    height: 45px;
+    background: #FF3A58 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001A;
+    border: 1px solid #FF3A58;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    font-size: medium;
+  }
+
+  .sharebtn{
+      text-align: center;
+    top: 568px;
+    left: 1210px;
+    width: 65px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001A;
+    border: 1px solid #FF3A58;
+    border-radius: 5px;
+    font-size: medium;
+    color:#FF3A58; 
+  }
+
+  .hide{
+    text-align: center;
+    top: 568px;
+    left: 1210px;
+    width: 65px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 2px 2px 0px #0000001A;
+    border: 1px solid #FF3A58;
+    border-radius: 5px;
+    font-size: medium;
+    color:#FF3A58;
+      display: none;
   }
 
 @media all and (max-width: 890px) {
@@ -213,6 +261,14 @@ body{
         background-image: url("file:///home/lalithakunchala/Downloads/Image%2010.png");
         min-height:356px;
         max-width: 100%;
+    }
+
+    .hide{
+        display: block;
+    }
+
+    .sharebtn{
+        display: none;
     }
 }
 
