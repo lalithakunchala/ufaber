@@ -75,7 +75,7 @@ body{
       color:#ADBABD;
       font: normal normal medium 15px/28px Montserrat;
         letter-spacing: 0px;
-        font-size: x-small;
+        font-size: small;
   }
 
   .tripleft{
@@ -152,7 +152,7 @@ body{
     font: normal normal medium 14px/18px Montserrat;
     letter-spacing: 0px;
     color: #515151;
-    font-size: small;
+    font-size: medium;
     top: 383px;
     left: 830px;
     width: 102px;
@@ -263,6 +263,16 @@ body{
     justify-content: center;
     background-color: #FFE30D;
     font-size: small;
+  }
+  #innerRadius1{
+    border-radius: 9999px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    border: 1px solid black;
   }
 
   .radius{
