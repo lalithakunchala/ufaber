@@ -30,6 +30,15 @@ body{
     margin: 6px;
 }
 
+.lineSuccess{
+  background: #8AE241 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  width: 32px;
+  height: 5px;
+  margin: 6px;
+}
+
 .real{
     font-size: 1.5em;
     font-weight: bold;
@@ -75,7 +84,7 @@ body{
       color:#ADBABD;
       font: normal normal medium 15px/28px Montserrat;
         letter-spacing: 0px;
-        font-size: small;
+        font-size: 16px;
   }
 
   .tripleft{
@@ -137,15 +146,6 @@ body{
     color:black;
   }
 
-  /* .arrow{
-    background: #333333 0% 0% no-repeat padding-box;
-    top: 584px;
-    left: 221px;
-    width: 15px;
-    height: 18px;
-    transform: matrix(0, 1, -1, 0, 0, 0);
-    border-radius: 100% 100% 0% 0%;
-  } */
 
   .btns{
     text-align: center;
@@ -303,6 +303,104 @@ body{
       font-size: 24px;
       font-weight: bold;
   }
+
+  .adjustImg img{
+      max-width: 100%;
+  }
+
+
+.footer{
+  width: 100%;
+  margin-top: 6.25em;
+  padding: 3.5em;
+  padding-bottom: 0;
+  background-color: #635D5D;
+  text-align: left;
+  font-family: Open sans;
+  font-weight: 400;
+}
+
+.dl{
+  margin:0;
+  padding:0;
+}
+
+.dt{
+  font-size: .75em;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  letter-spacing: .03em;
+  padding: 0;
+  color: #B7B1AE;
+  margin: 0;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.dd{
+  padding: 0 0 .5em;
+  line-height: 1.6em;
+  margin:0;
+  color: #FFFFFF;
+}
+
+.dd:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.spacer{
+  margin-top: 0.625em;
+}
+
+.spacer1{
+  margin-top: 1.25em;
+}
+
+.social_cont{
+  width:100%;
+  display: flex;
+}
+
+.social_cont  i{
+  margin: 4px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  height: 40px;
+  width:40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 26px;
+  background-color: rgb(136, 124, 119);
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.footnote{
+  padding: 0.625em 15px;
+  background-color:#635D5D;
+  text-align: center;
+}
+
+.footnote>h6{
+  font-size: .75em;
+  line-height: 1.6em;
+  font-weight: 600;
+  letter-spacing: .03em;
+  color: #B7B1AE;
+  margin:0;
+}
+
+.footnote a{
+  color: #512B1A !important;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+
+.footnote a:hover{
+  color: #512B1A;
+  text-decoration: underline !important;
+}
 
 
 @media all and (max-width: 950px) {
