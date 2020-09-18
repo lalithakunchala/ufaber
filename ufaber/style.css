@@ -1,5 +1,6 @@
 body{
     margin:20px;
+    background: #F6F6F6;
 }
 .header{
     top: 0px;
@@ -15,7 +16,7 @@ body{
 .menu{
     top: 10px;
     left: 41px;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -175,7 +176,8 @@ body{
   }
 
   .smallSize{
-    font-size: small;
+    font-size: medium;
+    padding-left: 10px;
   }
   .inr{
     color:#6997A1;
@@ -240,7 +242,7 @@ body{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 1px 1px 0px #0000001A;
     border: 1px solid #CBD8DB;
-    padding:5px;
+    padding:10px;
     margin:5px;
   }
 
@@ -260,6 +262,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFE30D;
+    font-size: small;
   }
 
   .radius{
@@ -267,17 +270,19 @@ body{
       align-items: center;
     display: flex;
     justify-content: center;
+    
 
   }
 
   .goal{
       background-color: #6188EA;
-      font-size: small;
+      font-size: medium;
       font-weight: bold;
-      width:60px;
+      width:70px;
       text-align: center;
       border-radius: 35%;
       color:white;
+      margin:5px;
   }
 
   .white{
